@@ -1,0 +1,67 @@
+# 🏦 Console Bank Project with OOP
+
+## 📌 Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [How to Run](#how-to-run)
+- [Currency Support](#currency-support)
+
+
+---
+
+## 📖 Introduction
+This project is a **console-based banking system** that simulates basic banking operations such as:
+- Account creation
+- Deposits & withdrawals
+- Balance inquiries
+
+The project follows **Object-Oriented Programming (OOP) principles** for better modularity, scalability, and maintainability.  
+It is built using **pure C++** and **stores data in text files** (`Clients.txt` and `Users.txt`) as a simple Database Management System (**DMS**).  
+
+Additionally, it supports **multiple currencies**, allowing users to manage accounts and perform transactions in different currencies.
+
+> 🎯 **This project is ideal for learning and practicing OOP concepts like encapsulation, inheritance, polymorphism, and abstraction.**
+
+---
+
+## 🚀 Features
+
+### ✅ Account Management
+- Create new accounts (e.g., **Savings, Current**)
+- Deposit and withdraw funds
+- Check account balance
+
+### ✅ Customer Management
+- Add new customers
+- Link customers to their accounts
+
+### ✅ Transaction History
+- View transaction history for each account
+
+### ✅ OOP Design
+- Well-structured classes for **Account, Customer, and Bank**
+- **Inheritance** for different account types (**SavingsAccount, CurrentAccount**)
+
+### ✅ File-Based DMS
+- Uses `Clients.txt` and `Users.txt` to store and manage data persistently.
+
+### ✅ Currency Support
+- Update exchange rates between currencies
+- Convert amounts between different currencies
+---
+
+## 🛠 Technologies Used
+- **Programming Language:** C++ (Pure)
+- **Database Management:** Text files (`Clients.txt` and `Users.txt`)
+- **Tools:** Any C++ IDE 
+
+
+---
+
+## ▶️ How to Run
+
+### 1️⃣ Clone the Repository:
+```bash
+git clone https://github.com/YounisSaid/Console-Bank-Project-With-OOP-Cpp-
+cd Console-Bank-Project-With-OOP
